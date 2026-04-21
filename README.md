@@ -88,6 +88,12 @@ This project includes basic security measures to improve robustness and reduce t
 client/    # React front-end
 server/    # Node.js / Express back-end
 server/data/   # JSON data files
+```
+## Screenshots
 
+### Home Page
+![Home Page](images/webpage1.png)
 
+### Course Management Page
+![Course Management Page](images/webpage2.png)
 
