@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(-90deg, #3c4a86, #ae86d6);
+}
+
+main {
+  min-height: 100vh;
+  margin: 0 auto;
+  border-radius: 0 0 15px 15px;
+
+  background-color: white;
+}
+
+.container {
+  min-height: 100vh;
+  margin: 0 auto;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: linear-gradient(-90deg, #3c4a86, #ae86d6);
+  }
+
+  main {
+    min-height: 100vh;
+    margin: 0 auto;
+    border-radius: 0 0 15px 15px;
+
+    background-color: white;
+  }
+
+  .container {
+    max-height: 1200px;
+    margin: 0 auto;
+
+    margin: 20px;
+  }
+
+  header {
+    background-color: whitesmoke;
+    color: rgb(20, 20, 20);
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  .posterBar {
+    background: #ffffff;
+    padding: 30px 20px;
+
+    text-align: center;
+  }
+
+  .nbtn {
+    width: 200px;
+    padding: 15px 20px;
+    margin: 10px 0;
+    background: white;
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #495057;
+    text-align: center;
+  }
+
+  .nbtn:hover {
+    background: #acbcff;
+    transform: translateY(-5px);
+  }
+
+  .section {
+    display: none;
+  }
+
+  .section.active {
+    display: block;
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 8px;
+    color: #495057;
+    margin-top: 20px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 70%;
+    padding: 12px 16px;
+    border: 2px solid transparent;
+    border-radius: 9px;
+    font-size: 1rem;
+    background: white;
+    background-clip: padding-box;
+    transition: all 0.2s ease;
+    outline: none;
+    box-shadow: inset 3px 3px 6px #d1d9e6, inset -3px -3px 6px #ffffff;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus {
+    background: linear-gradient(white, white),
+      linear-gradient(135deg, #4361ee, #f72585);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+  }
+
+  .btn {
+    background: linear-gradient(-90deg, #3c4a86, #ae86d6);
+    color: white;
+    border: 2px solid #e9ecef;
+    padding: 13px 26px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 20px;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+  }
+
+  .nbtn.active {
+    background: rgba(100, 75, 189, 0.662);
+    color: white;
+  }
+
+  .btn-grey {
+    background: #6c757d;
+  }
+
+  .btn-red {
+    background: #f91d04;
+  }
+
+  .card {
+    margin: auto;
+    text-align: center;
+    background: white;
+    max-width: 1200px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e9ecef;
+  }
+
+  .card h3 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #db10d4;
+    padding-bottom: 11px;
+  }
+
+  .deletebtn {
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+
+  .manyinput {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .manyinput input {
+    width: 200px;
+    flex: 1;
+  }
+
+  #checkRole {
+    width: 300px;
+  }
+
+  .multdelete input {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th,
+  td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  th {
+    background: #f8f9fa;
+
+    color: #434a51;
+    font-weight: 599;
+  }
+
+  tr:hover {
+    background: whitesmoke;
+  }
+
+  padding: 20px;
+}
+
+header {
+  background-color: whitesmoke;
+  color: rgb(20, 20, 20);
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  text-align: center;
+}
+
+.posterBar {
+  background: #ffffff;
+  padding: 30px 20px;
+
+  text-align: center;
+}
+
+.nbtn {
+  width: 200px;
+  padding: 15px 20px;
+  margin: 10px 2px;
+  background: white;
+  border: 2px solid rgb(180, 180, 180);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #495057;
+  text-align: center;
+}
+
+.nbtn:hover {
+  background: #acbcff;
+  transform: translateY(-5px);
+}
+
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #495057;
+  margin-top: 20px;
+}
+
+input,
+select,
+textarea {
+  width: 70%;
+  padding: 12px 16px;
+  border: 2px solid transparent;
+  border-radius: 9px;
+  font-size: 1rem;
+  background: white;
+  background-clip: padding-box;
+  transition: all 0.2s ease;
+  outline: none;
+  box-shadow: inset 3px 3px 6px #d1d9e6, inset -3px -3px 6px #ffffff;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background: linear-gradient(white, white),
+    linear-gradient(135deg, #4361ee, #f72585);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+.btn {
+  background: linear-gradient(-90deg, #3c4a86, #ae86d6);
+  color: white;
+  border: 2px solid #e9ecef;
+  padding: 13px 26px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 20px;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.nbtn.active {
+  background: rgba(100, 75, 189, 0.662);
+  color: white;
+}
+
+.btn-grey {
+  background: #6c757d;
+}
+
+.btn-red {
+  background: #f91d04;
+}
+
+.card {
+  margin: 20px auto;
+  text-align: center;
+  background: white;
+  max-width: 1200px;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e9ecef;
+}
+
+.card h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #db10d4;
+  padding-bottom: 11px;
+}
+
+.deletebtn {
+  margin-left: 10px;
+  margin-top: 10px;
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.manyinput {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.manyinput input {
+  width: 200px;
+  flex: 1;
+}
+
+#checkRole {
+  width: 300px;
+}
+
+.multdelete input {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #e9ecef;
+}
+
+th {
+  background: #f8f9fa;
+
+  color: #434a51;
+  font-weight: 599;
+}
+
+tr:hover {
+  background: whitesmoke;
+}
+
+main.layout1 {
+  max-width: 1450px;
+  margin: 20px auto;
+  padding-bottom: 40px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
