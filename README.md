@@ -89,10 +89,5 @@ client/    # React front-end
 server/    # Node.js / Express back-end
 server/data/   # JSON data files
 
----
-### Home Page
-![Home Page](./images/webpage1.png)
 
-### Course Management Page
-![Course Management Page](./images/webpage2.png)
 
